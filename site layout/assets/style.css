@@ -25,7 +25,6 @@ img {
     display: block;
 }
 
-/* --- HEADER --- */
 .header {
     width: 100%;
     height: 72px;
@@ -99,7 +98,6 @@ img {
     background-color: #ff7b5c;
 }
 
-/* --- HERO SECTION --- */
 .hero {
     width: 100%;
     padding: 80px 0;
@@ -179,7 +177,6 @@ img {
     border-radius: 16px;
 }
 
-/* --- BRANDS SECTION --- */
 .brands {
     width: 100%;
     background: #f5f5f5;
@@ -272,7 +269,6 @@ img {
     opacity: 1;
 }
 
-/* --- FEATURES SECTION --- */
 .features {
     width: 100%;
     padding: 60px 0;
@@ -355,7 +351,6 @@ img {
     box-shadow: -10px 15px 40px rgba(0, 0, 0, 0.06);
 }
 
-/* --- MEDIA PLAYER SECTION --- */
 .media-player {
     width: 100%;
     padding: 60px 0;
@@ -498,7 +493,6 @@ img {
     background-color: #ff7b5c;
 }
 
-/* --- INTEGRATIONS SECTION --- */
 .integrations {
     position: relative;
     width: 100%;
@@ -588,11 +582,10 @@ img {
     pointer-events: none;
 }
 
-/* --- BENTO GRID HUB SECTION --- */
 .hub-section {
     width: 100%;
-    background-color: #ffffff; /* Робимо фон секції білим для шапки */
-    padding: 100px 0 0 0; /* Нижній паддінг 0, щоб сітка зливалася з CTA */
+    background-color: #ffffff;
+    padding: 100px 0 0 0;
     box-sizing: border-box;
 }
 
@@ -609,12 +602,11 @@ img {
     letter-spacing: -1.5px;
 }
 
-/* Мобільна сітка за замовчуванням (в одну колонку) */
 .hub-grid {
     display: grid;
     grid-template-columns: 1fr; 
     width: 100%;
-    max-width: 1440px; /* Контролюємо максимальну ширину самої сітки */
+    max-width: 1440px;
     margin: 0 auto;
     background-color: #e5e5e5; 
     gap: 1px; 
@@ -623,7 +615,6 @@ img {
     overflow: hidden;
 }
 
-/* Базова картка */
 .hub-card {
     background-color: #ffffff;
     padding: 40px 40px 0 40px;
@@ -675,7 +666,6 @@ img {
     display: block;
 }
 
-/* КАРТКА 1: НАКЛАДАННЯ ШАРІВ */
 .layers-container {
     width: 100%;
     height: 100%;
@@ -701,7 +691,6 @@ img {
     box-shadow: -15px 0 30px rgba(0, 0, 0, 0.05);
 }
 
-/* КАРТКА 4: COMMAND + K */
 .cmdk-card {
     padding: 0;
     justify-content: flex-end;
@@ -755,7 +744,6 @@ img {
     margin-bottom: 0;
 }
 
-/* КАРТКА 5: ТАБЛИЦЯ */
 .table-img {
     width: 100%;
     height: 100%;
@@ -764,7 +752,6 @@ img {
     display: block;
 }
 
-/* КАРТКА 6: SECURE */
 .secure-center {
     align-items: center;
     justify-content: center;
@@ -776,7 +763,6 @@ img {
     height: auto;
 }
 
-/* --- СЕКЦІЯ CTA --- */
 .cta {
     background: rgba(254, 154, 134, 1);
     padding: 100px 0 0;
@@ -829,7 +815,6 @@ img {
     display: block; 
 }
 
-/* Декоративні кола CTA */
 .cta::before,
 .cta::after {
     content: "";
@@ -872,7 +857,6 @@ img {
     z-index: 0;
 }
 
-/* ===== SECTION 03 — FOOTER ===== */
 .footer {
     background: rgba(254, 154, 134, 1);
     padding: 52px 52px 0;
@@ -959,33 +943,25 @@ img {
     color: rgba(255,255,255,0.4);
 }
 
-/* ==========================================================================
-   ФІКС СІТКИ ТА АДАПТИВНОСТІ ДЛЯ ДЕСКТОПА (Екрани від 769px)
-   ========================================================================== */
 @media (min-width: 769px) {
     .hub-grid {
-        /* ТУТ БУВ ФІКС: перевизначаємо колонки на 6 штук, щоб спрацювали span */
         grid-template-columns: repeat(6, 1fr); 
     }
 
     .hub-card {
         height: 480px; 
     }
-
-    /* РЯД 1: Разом займають 6 колонок (4 + 2) */
+    
     .hub-grid .hub-card:nth-child(1) { grid-column: span 4; }
     .hub-grid .hub-card:nth-child(2) { grid-column: span 2; }
 
-    /* РЯД 2: Разом займають 6 колонок (3 + 3) */
     .hub-grid .hub-card:nth-child(3) { grid-column: span 3; }
     .hub-grid .hub-card:nth-child(4) { grid-column: span 3; }
 
-    /* РЯД 3: Разом займають 6 колонок (4 + 2) */
     .hub-grid .hub-card:nth-child(5) { grid-column: span 4; }
     .hub-grid .hub-card:nth-child(6) { grid-column: span 2; }
 }
 
-/* ===== Мобільна адаптивність ===== */
 @media (max-width: 768px) {
     .hero h1 { font-size: 40px; line-height: 1.2; }
     .hero__title { font-size: 42px; }
