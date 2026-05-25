@@ -14,15 +14,15 @@
     <header class="header">
         <div class="header__container">
             <a href="#" class="header__logo">
-                <img src="assets/logo.png" alt="Focal Logo" class="logo-img">
+                <img src="assets/logo.png" alt="Focal Logo" class="header__logo-img">
                 <span>Focal</span>
             </a>
 
-            <nav class="header__menu">
-                <ul class="menu__list">
-                    <li class="menu__item"><a href="#" class="menu__link">Features <span class="arrow">▾</span></a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Use-cases <span class="arrow">▾</span></a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Features <span class="header__nav-arrow">▾</span></a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Use-cases <span class="header__nav-arrow">▾</span></a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Pricing</a></li>
                 </ul>
             </nav>
 
@@ -31,47 +31,41 @@
             </div>
         </div>
     </header>
-    <main class="main">
+
+    <main>
+
         <section class="hero">
             <div class="hero__container">
-                <div class="hero__outer-shadow-wrapper">
-                    <div class="hero__content">
-                        <h1 class="hero__title">
-    <span class="accent-color">Supercharge</span><br>your creative pipeline
-                        </h1>
-                        <p class="hero__subtitle">Focal is the central hub for your ad creatives. Manage, proof, and deliver assets 10x faster.</p>
-                        <a href="#" class="btn-hero">Request access</a>
-                    </div>
-                    <div class="hero__preview">
-                        <img src="assets/Section.png" alt="Focal Creative Board" class="hero-img">
-                    </div>
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__title-accent">Supercharge</span><br>your creative pipeline
+                    </h1>
+                    <p class="hero__subtitle">Focal is the central hub for your ad creatives. Manage, proof, and deliver assets 10x faster.</p>
+                    <a href="#" class="btn-hero">Request access</a>
+                </div>
+                <div class="hero__preview">
+                    <img src="assets/Section.png" alt="Focal Creative Board" class="hero__img">
                 </div>
             </div>
         </section>
-        <section class="brands">
-            <div class="brands-container">
 
-                <div class="brands-info">
+        <section class="trusted-by">
+            <div class="trusted-by__container">
 
-                    <div class="circles">
-                        <span class="circle big"></span>
-                        <span class="circle small"></span>
+                <div class="trusted-by__info">
+                    <div class="trusted-by__circles">
+                        <span class="trusted-by__circle--small"></span>
                     </div>
-
-                    <div class="brands-text">
-                        <div class="text-top">
-                            Trusted by exceptional
-                        </div>
-
-                        <div class="middle-line">
-                            <span class="vertical-word">brands</span>
+                    <div class="trusted-by__text">
+                        <div class="trusted-by__text-top">Trusted by exceptional</div>
+                        <div class="trusted-by__text-middle">
+                            <span class="trusted-by__text-vertical">brands</span>
                             <span>around the world</span>
                         </div>
                     </div>
-
                 </div>
 
-                <div class="brands-logos">
+                <div class="trusted-by__logos">
                     <img src="./assets/brand1.png" alt="Brand">
                     <img src="./assets/brand2.png" alt="Brand">
                     <img src="./assets/brand3.png" alt="Brand">
@@ -83,197 +77,199 @@
             </div>
         </section>
 
-        <section class="features">
-            <div class="features__card-container">
-                
-                <div class="features__content">
-                    <span class="features__overline">ASSET LIBRARY</span>
-                    <h2 class="features__title">All your creative assets, perfectly organized</h2>
-                    
-                    <div class="features__list">
-                        <div class="features__item">
+        <section class="assets">
+            <div class="assets__card">
+
+                <div class="assets__content">
+                    <span class="assets__overline">ASSET LIBRARY</span>
+                    <h2 class="assets__title">All your creative assets, perfectly organized</h2>
+
+                    <ul class="assets__list">
+                        <li class="assets__item">
                             <p>Store all ad materials in one central library</p>
-                        </div>
-                        <div class="features__item">
+                        </li>
+                        <li class="assets__item">
                             <p>Find assets with AI-powered search and marketing-first metadata filters</p>
-                        </div>
-                        <div class="features__item">
+                        </li>
+                        <li class="assets__item">
                             <p>Locate files with your brand specific custom metadata</p>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="features__preview">
-                    <img src="assets/Preview.png" alt="Assets Library Screen" class="features-img">
+                <div class="assets__preview">
+                    <img src="assets/Preview.png" alt="Assets Library Screen" class="assets__img">
                 </div>
 
             </div>
         </section>
-        
-        <section class="media-player">
-            <div class="media__card-container">
-                
-                <div class="media__header">
-                    <span class="media__overline">MEDIA PLAYER</span>
-                    <h2 class="media__main-title">Collaborate, review<br>and publish</h2>
+
+        <section class="collaboration">
+            <div class="collaboration__card">
+
+                <div class="collaboration__header">
+                    <span class="collaboration__overline">MEDIA PLAYER</span>
+                    <h2 class="collaboration__title">Collaborate, review<br>and publish</h2>
                 </div>
 
-                <div class="media__rows">
-                    
-                    <div class="media__row">
-                        <div class="media__img-block">
-                            <img src="assets/media1.png" alt="Feedback interface" class="media-screen">
+                <div class="collaboration__rows">
+
+                    <div class="collaboration__row">
+                        <div class="collaboration__img-block">
+                            <img src="assets/media1.png" alt="Feedback interface" class="collaboration__screen">
                         </div>
-                        <div class="media__text-block">
-                            <span class="media__row-overline">COMMENTS & ACTIVITY</span>
-                            <h3 class="media__row-title">Give and receive actionable feedback</h3>
-                            <p class="media__row-desc">Draw annotations and leave comments</p>
+                        <div class="collaboration__text-block">
+                            <span class="collaboration__row-overline">COMMENTS & ACTIVITY</span>
+                            <h3 class="collaboration__row-title">Give and receive actionable feedback</h3>
+                            <p class="collaboration__row-desc">Draw annotations and leave comments</p>
                         </div>
                     </div>
 
-                    <div class="media__row">
-                        <div class="media__img-block">
-                            <img src="assets/media2.png" alt="Version history interface" class="media-screen">
+                    <div class="collaboration__row">
+                        <div class="collaboration__img-block">
+                            <img src="assets/media2.png" alt="Version history interface" class="collaboration__screen">
                         </div>
-                        <div class="media__text-block">
-                            <span class="media__row-overline">VERSION HISTORY</span>
-                            <h3 class="media__row-title">Say goodbye to videoFINALFINAL.mp4</h3>
-                            <p class="media__row-desc">See the asset's changelog with one click</p>
+                        <div class="collaboration__text-block">
+                            <span class="collaboration__row-overline">VERSION HISTORY</span>
+                            <h3 class="collaboration__row-title">Say goodbye to videoFINALFINAL.mp4</h3>
+                            <p class="collaboration__row-desc">See the asset's changelog with one click</p>
                         </div>
                     </div>
 
-                    <div class="media__row">
-                        <div class="media__img-block">
-                            <img src="assets/media3.png" alt="Media mockups interface" class="media-screen">
+                    <div class="collaboration__row">
+                        <div class="collaboration__img-block">
+                            <img src="assets/media3.png" alt="Media mockups interface" class="collaboration__screen">
                         </div>
-                        <div class="media__text-block">
-                            <span class="media__row-overline">MEDIA MOCKUPS</span>
-                            <h3 class="media__row-title">Context is everything</h3>
-                            <p class="media__row-desc">Experience your creatives in their natural environment</p>
-                            <a href="#" class="btn-media">Request access</a>
+                        <div class="collaboration__text-block">
+                            <span class="collaboration__row-overline">MEDIA MOCKUPS</span>
+                            <h3 class="collaboration__row-title">Context is everything</h3>
+                            <p class="collaboration__row-desc">Experience your creatives in their natural environment</p>
+                            <a href="#" class="btn-collaboration">Request access</a>
                         </div>
                     </div>
 
                 </div>
 
             </div>
-         </section>
+        </section>
 
         <section class="integrations">
-        <div class="integrations-circle-3"></div>
-        <div class="container">
-            <span class="integrations-label">Marketing Stack Integrations</span>
-            <h2>Streamlined ad creative<br>discovery and distribution</h2>
-            <div class="integrations-diagram">
-                <img src="assets/integrations.png" alt="Integrations">
+            <div class="integrations__container">
+                <span class="integrations__overline">Marketing Stack Integrations</span>
+                <h2 class="integrations__title">Streamlined ad creative<br>discovery and distribution</h2>
+                <div class="integrations__diagram">
+                    <img src="assets/integrations.png" alt="Integrations">
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-            <section class="hub-section">
-            <div class="hub-section__header">
+        <section class="features">
+            <div class="features__header">
                 <h2>One central hub for your assets and team</h2>
             </div>
 
-            <div class="hub-grid">
-                
-                <div class="hub-card card-wide card-campaigns">
-                    <div class="hub-card__content">
+            <div class="features__grid">
+
+                <div class="features__card features__card--wide">
+                    <div class="features__card-content">
                         <h3>Home for all campaigns and files</h3>
                         <p>AI Search, custom tags, and filters ensure easy material discovery.</p>
                     </div>
-                    <div class="hub-card__preview layers-container">
-                        <img src="assets/div.feature-collab_pages.png" alt="Campaign Asset 1" class="layer-back">
-                        <img src="assets/div.feature-collab_table.png" alt="Campaign Asset 2" class="layer-front">
+                    <div class="features__card-preview features__card-layers">
+                        <img src="assets/div.feature-collab_pages.png" alt="Campaign Asset 1" class="features__layer-back">
+                        <img src="assets/div.feature-collab_table.png" alt="Campaign Asset 2" class="features__layer-front">
                     </div>
                 </div>
 
-                <div class="hub-card card-narrow">
-                    <div class="hub-card__content">
+                <div class="features__card features__card--narrow">
+                    <div class="features__card-content">
                         <h3>Safe and easy sharing</h3>
                         <p>Invite your team, agencies and freelancers with just few clicks.</p>
                     </div>
-                    <div class="hub-card__preview">
+                    <div class="features__card-preview">
                         <img src="assets/div.feature-share.png" alt="Sharing panel">
                     </div>
                 </div>
 
-                <div class="hub-card card-half">
-                    <div class="hub-card__content">
+                <div class="features__card features__card--half">
+                    <div class="features__card-content">
                         <h3>Bring your stack with you</h3>
                         <p>Integrate smoothly with Figma, Slack and Google Drive to eliminate copy-paste.</p>
                     </div>
-                    <div class="hub-card__preview">
+                    <div class="features__card-preview">
                         <img src="assets/div.frame-265.png" alt="Integrations preview">
                     </div>
                 </div>
 
-                <div class="hub-card card-half cmdk-card">
-                    <img src="assets/div.feature-cmd-k_background.png" alt="Command K Background" class="cmdk-bg">
-                    
-                            <div class="cmdk-search-bar">
-                                <span class="cmdk-icon">🔍</span>
-                                <input type="text" placeholder="Search for anything..." class="cmdk-input">
+                <div class="features__card features__card--half features__card--cmdk">
+                    <img src="assets/div.feature-cmd-k_background.png" alt="" class="features__cmdk-bg">
+                    <div class="features__cmdk-content">
+                        <div class="features__cmdk-search-wrapper">
+                            <div class="features__cmdk-search">
+                                <span class="features__cmdk-icon">🔍</span>
+                                <input type="text" placeholder="Search for anything..." class="features__cmdk-input">
                             </div>
-                            
-                    <div class="hub-card__content cmdk-text">
-                        <h3>Command + K</h3>
-                        <p>Navigate across projects and assets with the speed of light.</p>
+                        </div>
+                        <div class="features__card-content">
+                            <h3>Command + K</h3>
+                            <p>Navigate across projects and assets with the speed of light.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="hub-card card-wide">
-                    <div class="hub-card__content">
+                <div class="features__card features__card--wide">
+                    <div class="features__card-content">
                         <h3>Customizable by nature</h3>
                         <p>No-code flexibility allows everyone to bring their work to one space.</p>
                     </div>
-                    <div class="hub-card__preview">
+                    <div class="features__card-preview">
                         <img src="assets/div.frame-310.png" alt="Customizable board">
                     </div>
                 </div>
 
-                <div class="hub-card card-narrow">
-                    <div class="hub-card__content">
+                <div class="features__card features__card--narrow">
+                    <div class="features__card-content">
                         <h3>Secure</h3>
                         <p>We're SOC 2 certified and have a strong commitment for security.</p>
                     </div>
-                    <div class="hub-card__preview secure-center">
-                        <img src="assets/buttonAS.png" alt="SOC 2 Security Badge" class="secure-badge">
+                    <div class="features__card-preview features__card-preview--center">
+                        <img src="assets/buttonAS.png" alt="SOC 2 Security Badge">
                     </div>
                 </div>
 
             </div>
         </section>
-                <!-- ===== SECTION 04 — CTA ===== -->
+
         <section class="cta">
-            <div class="cta-circle-3"></div>
-            <div class="container">
-                <h2>Empower your team's creativity</h2>
-                <p>Manage, proof, and deliver marketing assets 10x faster.</p>
-                <a href="#" class="btn btn-dark">Request access</a>
-                <div class="cta-image">
-                    <img src="assets/cta-assets.png" alt="Assets">
+            <div class="cta__container">
+                <h2 class="cta__title">Empower your team's creativity</h2>
+                <p class="cta__subtitle">Manage, proof, and deliver marketing assets 10x faster.</p>
+                <a href="#" class="btn-dark">Request access</a>
+                <div class="cta__image">
+                    <img src="assets/cta-assets.png" alt="Assets" class="cta__img">
                 </div>
             </div>
         </section>
+
     </main>
 
-    <!-- ===== SECTION 03 — FOOTER ===== -->
     <footer class="footer">
-        <div class="footer-inner">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo">
-                        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="footer__inner">
+            <div class="footer__grid">
+
+                <div class="footer__brand">
+                    <div class="footer__brand-logo">
+                        <svg class="footer__brand-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="16" cy="16" r="14" stroke="rgba(255,255,255,1)" stroke-width="2.5"/>
                             <circle cx="16" cy="16" r="8" stroke="rgba(255,255,255,1)" stroke-width="2.5"/>
                             <circle cx="16" cy="16" r="3" fill="rgba(255,255,255,1)"/>
                         </svg>
-                        <span class="logo-text">Focal</span>
+                        <span class="footer__brand-name">Focal</span>
                     </div>
                     <p>Paasivuorenkatu 4 A,<br>00530 Helsinki, Finland.</p>
                 </div>
-                <div class="footer-col">
+
+                <div class="footer__col">
                     <h4>Features</h4>
                     <ul>
                         <li><a href="#">Asset Library</a></li>
@@ -282,7 +278,8 @@
                         <li><a href="#">Pages</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+
+                <div class="footer__col">
                     <h4>Use cases</h4>
                     <ul>
                         <li><a href="#">DTC and eCom</a></li>
@@ -290,7 +287,8 @@
                         <li><a href="#">Agencies</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+
+                <div class="footer__col">
                     <h4>Company</h4>
                     <ul>
                         <li><a href="#">About us</a></li>
@@ -301,19 +299,21 @@
                         <li><a href="#">Solutions library</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+
+                <div class="footer__col">
                     <h4>Social</h4>
                     <ul>
                         <li><a href="#">X</a></li>
                         <li><a href="#">LinkedIn</a></li>
                     </ul>
                 </div>
+
             </div>
-            <div class="footer-bottom">
+            <div class="footer__copyright">
                 © 2023 Focal Technologies Oy.
             </div>
         </div>
     </footer>
-    </main>
+
 </body>
 </html>
